@@ -1,0 +1,75 @@
+.courseSection {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    padding: 20px;
+  }
+  
+  .card {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 280px;
+    margin: 10px 0;
+  }
+
+  .card:hover {
+    cursor: pointer;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .image {
+    width: 80px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-right: 10px;
+    padding: 10px 5px;
+  }
+  
+  .cardContent {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .title {
+    font-size: 18px;
+    margin: 10px 0;
+    font-weight: bold;
+  }
+  
+  .description {
+    font-size: 14px;
+    background: linear-gradient(90deg, #556B2F, #006400);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 600;
+  }
+  
+  @media (max-width: 768px) {
+    .courseSection {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .image {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+  
+    .cardContent {
+      padding: 0;
+    }
+  }

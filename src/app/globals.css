@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+
+:root {
+  --primary--color: #006400;
+  --secondary--color: #556B2F;
+  --tertiary--color: ##228B22;
+  --primary--grey: #666264;
+  --secondary--grey: #969595;
+}
+
+* {
+  /*para q no se añada el padding y el border de mas y no genere scroll*/
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Popins', sans-serif !important;
+  text-decoration: none !important;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5% !important;;
+}
+
+body {
+  overflow-x: hidden;
+  font-size: 1.6rem;
+  line-height: 2;
+}
+
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  background-color: #d3d3d3;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+}
+
+.card-title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.card-title-icon {
+  font-size: 50px;
+  color: #E63946;
+  margin-right: 10px;
+}

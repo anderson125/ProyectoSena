@@ -1,0 +1,66 @@
+/* Login.module.css */
+.root {
+    display: flex;
+    height: 100vh;
+  }
+
+  .loginButton {
+    align-self: flex-start; /* Ajustar la posición del botón */
+    margin-bottom: 20px; /* Margen inferior para separar del título */
+    border-color: #fff; /* Color del borde */
+    color: #fff; /* Color del texto */
+  }
+  
+  .sideImage {
+    flex: 1;
+    background: linear-gradient(135deg, #6E3CBC, #AD1DEB);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .loginForm {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .formContainer {
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .gradientButton {
+    background: linear-gradient(135deg, #006400, #228B22);
+    color: #fff;
+    margin-top: 20px;
+  }
+  
+  .socialButton {
+    margin-top: 10px;
+    background-color: #1DA1F2;
+    color: #fff;
+  }
+  
+  .socialButton:nth-of-type(2) {
+    background-color: #3b5998;
+  }
+  
+  /* Estilos responsivos */
+  @media (max-width: 768px) {
+    .sideImage {
+      display: none;
+    }
+  
+    .loginForm {
+      flex: 1;
+      padding: 20px;
+      justify-content: center;
+    }
+  }
+  
