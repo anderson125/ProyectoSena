@@ -118,7 +118,7 @@ export default function HomePage() {
             Our Mission
           </Typography>
           <Typography variant="body1" paragraph align="center" sx={{ fontSize: '15px' }}>
-            At LearnPro, we're committed to democratizing education and empowering individuals to reach their full potential through accessible, high-quality online learning experiences.
+            At LearnPro, we re committed to democratizing education and empowering individuals to reach their full potential through accessible, high-quality online learning experiences.
           </Typography>
         </Box>
 
